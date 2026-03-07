@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Guts & Blackpowder Classes</title>
+<script defer src="./index.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="top-container">
+        <div class="logo">
+            <img src="https://avatars.mds.yandex.net/i?id=8e6d433a0024608a1144d2091eae1763be63abaa-8276455-images-thumbs&n=13" alt="Лого">
+        </div>
+        <h1>Классы в Guts and Blackpowder</h1>
+    </div>
+    <div class="buttons">
+        <button onclick="scrollToSection('ranker')">Ранкер</button>
+        <button onclick="scrollToSection('officer')">Офицер</button>
+        <button onclick="scrollToSection('infantry')">Пехота</button>
+        <button onclick="scrollToSection('sapper')">Саппер</button>
+        <button onclick="scrollToSection('musician')">Музыкант</button>
+        <button onclick="scrollToSection('priest')">Священник</button>
+        <button onclick="scrollToSection('doctor')">Доктор</button>
+        <button onclick="scrollToSection('slider')">регимы</button>
+    </div>
+</header>
+<section id="ranker">
+    <h2>Ранкер</h2>
+    <p>является классом суть которого в уничтожении массы нежити оружием и мелишками на дальней дистанции</p>
+</section>
+<section id="officer">
+    <h2>Офицер</h2>
+    <p>особеный класс иммеющий способность которая дает бафф всей команде которая зависит от оружия их только 2
+        копье и капитанская сабля, сабля всем в близи дает эффект чардж, прикотором все бегут и кромсают нежить, ранкеры 
+        со штыками уничтожат за 1 удар, а вот копье заставляет всех ранкеров со штыками встать в стойку и не давать 
+        проходить нежити 
+    </p>
+</section>
+<section id="infantry">
+    <h2>Пехота</h2>
+    <p>похож на ранкера но есть 2 отличия: его мелишки бьют на короткую дистанцию, а основной смысл класса в его оружии, 
+    а именно дробаши, то есть он одним выстрелом уничтожает много нежити</p>
+</section>
+
+<section id="sapper">
+    <h2>Саппер</h2>
+    <p>у него нет оружия стрельбы, но он может строить баррикады для удержания нежити</p>
+</section>
+
+<section id="musician">
+    <h2>Музыкант</h2>
+    <p>играет музыку и дает бафф: флейта ускоряет перезарядку, барабан — скорость взмаха оружия</p>
+</section>
+
+<section id="priest">
+    <h2>Священник</h2>
+    <p>очень интересный класс, у него есть 3 способности:
+    <br>1. Распятье — станит всю нежить рядом и даёт шанс команде их убить
+    <br>2. Благословление — читает молитву тиммейту, снимая заражение
+    <br>3. Помилование — когда тиммейт полностью заражен, священник укладывает его на землю и прощает его грехи (тиммейт умирает, но не становится зомбаком)
+    </p>
+</section>
+
+<section id="doctor">
+    <h2>Доктор</h2>
+    <p>может вылечить тиммейта, а если у него фулл бинты, может поставить коробку с бинтами, которые могут взять все</p>
+</section>
+
+<section id="slider">
+    <div class="slider-container">
+        <img class="slider-image" src="https://static.wikia.nocookie.net/gbp/images/9/9e/RP9.png" alt="Слайд">
+        <div class="slider-text">Тут будет текст для первого слайда</div>
+    </div>
+    <div class="slider-controls">
+        <button onclick="prevSlide()">Назад</button>
+        <button onclick="nextSlide()">Вперед</button>
+    </div>
+</section>
+
+<section id="countdown-section">
+    <div class="countdown-container">
+        <div class="countdown-info">
+            <h2>купи 11 косметик пак всего за 50 рб
+            </h2>
+
+            <img src="https://static.wikia.nocookie.net/gbp/images/0/05/Cosmetic_Pack_11_Icon.png" alt="Ваша картинка" id="top-image">
+        </div>
+        <div class="countdown-timer" id="countdown">24:00:00</div>
+    </div>
+</section>
+</body>
+</html>
