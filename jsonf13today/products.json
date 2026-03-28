@@ -1,0 +1,55 @@
+{
+    "футболка мироходец 48-50 хлопок": {
+        "brand":"мироходец",
+        "size": "48-50",
+        "type": "футболка",
+        "material": "хлопок",
+        "images":[
+            "maika.webp",
+            "maika2.webp",
+            "maika3.webp"
+        ]
+    },
+    "статуэтка лололошка пластиковая 140мм":{
+        "persona":"lololowka",
+        "material":"plastic",
+        "hight":"140мм",
+        "images":[
+            "lox.jpg",
+            "lolox.jpg",
+            "lololox.jpg"
+        ]
+
+    },
+    "статуэтка jdh пластиковая 140мм":{
+        "persona":"jdh",
+        "material":"plastic",
+        "hight":"140мм",
+        "images":[
+            "jdh.jpg",
+            "jdh1.jpg",
+            "jdh2.jpg"
+        ]
+
+    },
+    "шарф ло хлопковый 150см ":{
+        "persona":"lo",
+        "material":"хлопок",
+        "hight":"150см",
+        "images":[
+            "scarf.png",
+            "skarf.png",
+            "skarf.phg"
+        ]
+    }
+    
+
+
+
+
+
+
+
+
+
+}
